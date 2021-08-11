@@ -1,0 +1,344 @@
+*,::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+body{
+    font-family: 'Inter var',sans-serif;
+    color: #333;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 400;
+}
+
+#wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+
+
+.max-width-container{
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: .5rem;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h2{
+    font-size: 28px;
+    line-height: 1.28571429;
+    font-weight: 600;
+    
+}
+h4{
+    font-size: 18px;
+    line-height: 1.33333333;
+    font-weight: 600;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#internships .section_description{
+    margin-bottom: 40px;
+}
+
+.section .section_description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #484848;
+}
+
+.view_all_cta{
+    font-family: 'Inter var',sans-serif;
+    display: flex;
+    justify-content: center;
+    min-width: 328px;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+}
+
+a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #008BDC;
+    cursor: pointer;
+}
+
+#internships .categories_container:first-of-type{
+    margin-bottom: 32px;
+}
+
+#internships .categories_container .catogries{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.scrollable_cards:not(#trainings_container){
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.scrollable_cards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.scrollable_cards .card_item{
+    display: flex;
+    padding: 16px 4px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    margin: 10px 6px;
+    width: 140px;
+    height: 156px;
+}
+
+.text{
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.38;
+    margin-top: 16px;
+}
+
+.img{
+    width: 132px;
+}
+
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-fluid{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.max-width-container{
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section h2{
+    margin-bottom: 0;
+    display: block;
+}
+
+#tag-image{
+    position: relative;
+    width: 80px;
+    height: 36px;
+    margin-left: 12px;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.section .section_description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #484848;
+}
+
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#trainings #trainings_container{
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.scrollable_cards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-top: 2px;
+}
+
+#trainings #trainings_container .card_item:first-of-type{
+    margin-left: 0;
+}
+
+#trainings #trainings_container .card_item{
+    height: 172px;
+    padding: 16px 8px 18px;
+    margin: 10px 4px;
+}
+
+.view_all_cta_container_20_more{
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+#fresher_jobs #fresher_jobs_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 64px 32px;
+}
+
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .img{
+    height: 88px;
+    width: 88px;
+}
+
+#fresher_jobs #fresher_jobs_container .fresher_job_perk .name{
+    font-size: 16px;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 8px;
+}
+
+
+#search_bar {
+    padding-top: 24px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+#search_bar .has_cross_and_button {
+    width: 512px;
+}
+#search_bar .has_cross_and_button {
+    width: 512px;
+}
+.has_cross_and_button {
+    box-shadow: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: auto;
+    line-height: 1.14285714;
+    border-radius: 3px;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+#search_bar .has_cross_and_button .form-control {
+    font-size: 16px;
+    height: 48px;
+    padding-left: 15px;
+}
+.input-group.has_cross_and_button .form-control {
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.has_cross_and_button .form-control {
+    border-radius: 3px 0 0 3px!important;
+    padding-left: 23px;
+    line-height: 24px;
+    border: 1px solid rgb(212, 207, 207);
+    border-right: none!important;
+    height: 56px;
+    font-size: 16px!important;
+}
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+input[type=text], input[type=password], input[type=email] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input {
+    border-radius: 3px!important;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.has_cross_and_button {
+    box-shadow: none;
+    background: #6985ff;
+    box-sizing: border-box;
+    height: auto;
+    line-height: 1.14285714;
+    border-radius: 3px;
+}
+#search_bar .has_cross_and_button .input-group-btn .btn-input {
+    min-width: 0;
+    padding: 0 12px!important;
+    height: 48px;
+    width: 48px;
+    background-color: #6985ff;
+}
+.icon_search {
+    font-weight: 600;
+}

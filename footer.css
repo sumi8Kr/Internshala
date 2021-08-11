@@ -1,0 +1,171 @@
+#footer {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+}
+
+.generic_footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    bottom: -1px;
+}
+
+
+.container-fluid{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.generic_footer .container-fluid .max-width-container .footer_container {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container .footer-column .footer-list h5 {
+    margin-bottom: 16px;
+}
+
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container .footer-column .footer-list .footer-list-item {
+    padding-bottom: 8px;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container .footer-column .footer-list .footer-list-item a {
+    font-family: 'Inter var',sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container #stream-container {
+    padding-left: 36px;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container #trainings-container {
+    padding-left: 53px;
+}
+
+.generic_footer .container-fluid .max-width-container .footer_container #about-us-container {
+    padding-left: 106px;
+}
+
+.generic_footer .container-fluid .max-width-container #footer-bottom {
+    border-top: 1px solid #666;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #android_app_container {
+    display: inline-block;
+    color: #fff;
+    margin-right: 32px;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    float: left;
+}
+
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #android_app_container i {
+    margin-right: 1px;
+}
+
+
+.generic_footer .container-fluid .max-width-container .footer_container .footer-column .footer-list h5 #trainings-footer a {
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: 'Inter var',sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.generic_footer .container-fluid .max-width-container .footer_container .offer {
+    background-color: #FF8C00;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 3px 6px;
+    margin-left: 6px;
+    letter-spacing: .5px;
+    padding: 3px;
+    margin-left: 4px;
+}
+
+.fa-google-play{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-instagram {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.fa-linkedin {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+}
+
+.fa-twitter {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+
+}
+.fa-youtube {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+
+}
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #copyright {
+    display: inline-block;
+    float: right;
+    padding: 9px 0;
+}
+
+
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #social_media_container {
+    display: inline-block;
+    float: left;
+    padding: 9px 0;
+}
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #social_media_container a {
+    color: #fff;
+}
+
+.generic_footer .container-fluid .max-width-container #footer-bottom #social_media_container i {
+    margin-right: 16px;
+}
